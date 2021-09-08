@@ -7,7 +7,7 @@ import 'login_page.dart';
 class AppWidget extends StatelessWidget {
   final String title;
 
-  const AppWidget({Key key, this.title}) : super(key: key);
+  const AppWidget({Key? key, required this.title}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
